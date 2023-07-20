@@ -1,13 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/drive/MyDrive/20 07 2023/ocr/train/images
+val: /content/drive/MyDrive/20 07 2023/ocr/valid/images
+test: /content/drive/MyDrive/20 07 2023/ocr/test/images
 
 nc: 1
 names: ['OCR']
 
-roboflow:
-  workspace: pawan-tardid-4wpho
-  project: ocr-4v7j7
-  version: 2
-  license: Public Domain
-  url: https://universe.roboflow.com/pawan-tardid-4wpho/ocr-4v7j7/dataset/2
